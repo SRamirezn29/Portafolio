@@ -1,7 +1,11 @@
 {
   "name": "portafolio",
   "version": "1.0.0",
+  "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -p $PORT"
+    "start": "npx http-server . -p $PORT"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
